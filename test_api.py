@@ -11,7 +11,7 @@ def test_api(urls):
     """Test the API by sending a request with the provided URLs"""
     try:
         # API endpoint
-        api_url = "http://localhost:8000/scrape"
+        api_url = "http://localhost:9000/scrape"
 
         # Request payload
         payload = {

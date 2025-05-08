@@ -113,4 +113,4 @@ async def root():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("simple_api:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("simple_api:app", host="0.0.0.0", port=9000, reload=True)

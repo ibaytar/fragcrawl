@@ -4,10 +4,9 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "9876:9000"  # Dışarıdan 9876, içeriden 9000 portu
+      - "9000:9000" # Dışarıdan 9000, içeriden 9000 portu
     volumes:
       - .:/app
     environment:
       - PYTHONUNBUFFERED=1
     restart: unless-stopped
-
